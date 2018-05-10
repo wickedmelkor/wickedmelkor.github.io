@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <title>Academy-ON</title>
+    <link rel="icon" type="image/png" href="./img/logo2.png">
+    <link rel="stylesheet" type="text/css" href="./css/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="./css/responsiveMain.css">
+    <script src="./js/main.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/JSONrequest.js"></script>
+    <script src="./js/mainCanvas.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/source.js"></script>
+    <!--requestSearch('javascript',100)-->
+</head>
+
+<body onload="loadSlider(); loadCanvas()">
+    <section id="card1" class="card1">
+        <header>
+            <nav>
+                <ul>
+                    <div class="login">
+                        <ul>
+                            <li id="login"><a id="loginLink" href="./html/login.html">
+                        Login
+                    </a></li>
+                            <li id="register"><a id="regLink" href="./html/register.html">
+                        Regístrate
+                    </a></li>
+
+                        </ul>
+                    </div>
+                    <li>
+                        Cursos
+                        <div class="categoryContainer other">
+                            <ul>
+                                <li>Programación</li>
+                                <li>Robótica</li>
+                                <li>Diseño</li>
+                                <li>Mentiras arriesgadas</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="scholarship">Becas</li>
+                    <li class="logo" id="logo"><a href="./index.html"></a></li>
+                    <li>
+                        Escuelas
+                        <div class="categoryContainer other2">
+                            <ul><!--data VIA JSON--></ul>
+                        </div>
+                    </li>
+                    <li><a href="#aboutus">Sobre nosotros</a></li>
+                </ul>
+
+            </nav>
+
+            <div class="headerImg">
+                <span class="eslogan">Cursos Online Gratuitos</span>
+                <ul>
+                    <li><img src="./img/cabecera0.png" alt=""></li>
+                    <li><img src="./img/cabecera1.png" alt=""></li>
+                    <li><img src="./img/cabecera4.png" alt=""></li>
+                    <li><img src="./img/cabecera3m.png" alt=""></li>
+                </ul>
+                <div class="search">
+                    <input type="text" id="search" placeholder="¿Qué quieres aprender?">
+                    <button class="searchButton"></button>
+                </div>
+            </div>
+            <div class="arrow up" id="arrowUp"></div>
+
+            <footer class="schoolWraper">
+                <div class="schoolContainer" id="schoolContainer">
+                    <a href="http://web.mit.edu/">
+                    <img name="Massachusetts Institute of Technology" id="0" src="./img/centros/centro1.png" alt="">
+                    </a>
+
+                    <a href="https://www.harvard.edu/">
+                    <img name="Hardvard University" id="1" src="./img/centros/centro2.png"  alt="">
+                    </a>
+
+                    <a href="https://www.berkeley.edu/">
+                    <img name="Berkeley University" id="2" src="./img/centros/centro3.png"  alt="">
+                    </a>
+
+                    <a href="https://www.utsystem.edu/">
+                    <img name="The University of Texas" id="3" src="./img/centros/centro4.png"  alt="">
+                    </a>
+
+                    <a href="https://www.polyu.edu.hk/web/en/home/index.html">
+                    <img name="The Hong Kong University" id="4" src="./img/centros/centro5.png"  alt="">
+                    </a>
+
+                    <a href="https://www.ubc.ca/">
+                    <img name="The University of British Columbia" id="5" src="./img/centros/centro6.png"  alt="">
+                    </a>
+
+                    <a href="https://www.tudelft.nl/en/">
+                    <img name="TUDelft" id="6" src="./img/centros/centro7.png"  alt="">
+                    </a>
+
+                    <a href="https://www.georgetown.edu/">
+                    <img name="Georgetown University" id="7" src="./img/centros/centro8.png"  alt="">
+                    </a>
+
+                    <a href="http://www.sorbonne-universites.fr/">
+                    <img name="Sorbonne Université" id="8" src="./img/centros/centro9.png"  alt="">
+                    </a>
+
+                    <a href="https://www.usmd.edu/">
+                    <img name="University System of Maryland" id="9" src="./img/centros/centro10.png"  alt="">
+                    </a>
+
+                    <a href="https://www.uq.edu.au/">
+                    <img name="The University of Queensland" id="10" src="./img/centros/centro11.png"  alt="">
+                    </a>
+
+                    <a href="http://www.rwth-aachen.de/cms/~a/root/?lidx=1">
+                    <img name="RWTH AACHEN University" id="11" src="./img/centros/centro12.png"  alt="">
+                    </a>
+                </div>
+                <div class="arrow left" id="arrowLeft"></div>
+                <div class="arrow right" id="arrowRight"></div>
+            </footer>
+        </header>
+        <canvas id="mainCanvas"></canvas>
+    </section>
+    <section class="card2">
+        <div class="infoContainer" id="infoContainer">
+            <h3 id="info1"></h3>
+            <h3 id="info2"></h3>
+            <article id="info3"></article>
+            <article id="info4"></article>
+            <article id="info5">
+                <p>Haz click!
+                </p>
+                <div class="nextView"></div>
+            </article>
+        </div>
+
+    </section>
+    <section class="paralax"><a name="aboutus"></a>
+        <h3>Te ayudamos a mejorar tu carrera</h3>
+        <div class="bg one">
+            <div class="insidebg">
+                <h4>Los cursos de calidad no tienen por que ser caros</h4>
+                <ul>
+                    <li>Nuestra política es clara... enseñanza libre de calidad</li>
+                    <li>Puedes enrolarte en más de 500 cursos de forma gratuita</li>
+                    <li>Instructores Expertos: encuentra el adecuado para ti</li>
+                    <li>Contamos con más de 50 disciplinas de estudios</li>
+                    <li>Acceso de por vida. Avanza a tu ritmo</li>
+                    <li>Aprende lo que te gusta, nosotros te enseñamos</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="bg two">
+            <div class="insidebg">
+                <h4>Construye un puente hacia tu futuro</h4>
+                <ul>
+                    <li>Actualiza tu currículum, no te quedes atrás</li>
+                    <li>Especialízate en tu materia</li>
+                    <li>Consigue el puesto de trabajo que siempre has deseado</li>
+                    <li>¿Estás en paro? Reinsértate en el mundo laboral</li>
+                    <li>Nuestros cursos están avalados por el certificado de calidad Jande Morr</li>
+                    <li>Contamos con los mejores profesionales de la enseñanza y expertos en tu sector</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="bg three">
+            <div class="insidebg">
+                <h4>Las mejores universidades a tu alcance</h4>
+                <ul>
+                    <li>¿Piensas que necesitas mejorar tu situación actual? Ha llegado el momento</li>
+                    <li>En Academy-ON trabajamos con 12 de las universidades más presitgiosas del mundo</li>
+                    <li>Podrás preguntar tus dudas a los profesores a través de nuestro chat interactivo</li>
+                    <li>Haz un seguimiento de tu progreso en el panel de usuario</li>
+                    <li>Ofrecemos titulación oficial expedida por las universidades</li>
+                    <li>Paga sólo por el título, ¿A qué esperas?</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer class="mainFooter">
+        <h4>ACADEMY-ON</h4>
+    </footer>
+</body>
+
+</html>
