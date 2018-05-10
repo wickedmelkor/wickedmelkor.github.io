@@ -1,5 +1,5 @@
 # First-MarkUp-Proyect
-# To see the webpage, please go to this link https://wickedmelkor.github.io/
+# To see the webpage, please go to this link: https://wickedmelkor.github.io/
 # Welcome
 This proyect is about simulating a well known MOOC (Masive Online Open Courses).
 I have taken by reference edx.org to take some ideas and develop my owns.
