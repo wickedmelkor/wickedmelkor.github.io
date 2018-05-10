@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+    <usuario id="JAVA-001">
+        <mail>andres@gmail.com</mail>
+        <pass>1234</pass>
+        <nombreUser>JaGUaRs</nombreUser>
+        <pathUsu>../img/user/userYO.png</pathUsu>
+        <id>JAVA-001</id>
+        <cursos>
+            <curso id="1">
+                <nombre>Java swing</nombre>
+                <progreso>100</progreso>
+            </curso>
+            <curso id="2">
+                <nombre>Python</nombre>
+                <progreso>90</progreso>
+            </curso>
+            <curso id="3">
+                <nombre>Ruby</nombre>
+                <progreso>80</progreso>
+            </curso>
+            <curso id="4">
+                <nombre>Linux</nombre>
+                <progreso>70</progreso>
+            </curso>
+            <curso id="5">
+                <nombre>CSS</nombre>
+                <progreso>60</progreso>
+            </curso>
+            <curso id="6">
+                <nombre>Docker</nombre>
+                <progreso>50</progreso>
+            </curso>
+            <curso id="7">
+                <nombre>Inteligencia Artificial</nombre>
+                <progreso>40</progreso>
+            </curso>
+            <curso id="8">
+                <nombre>Robotics</nombre>
+                <progreso>30</progreso>
+            </curso>
+            <curso id="9">
+                <nombre>Unity</nombre>
+                <progreso>20</progreso>
+            </curso>
+            <curso id="10">
+                <nombre>Blender</nombre>
+                <progreso>10</progreso>
+            </curso>
+            <curso id="11">
+                <nombre>PHP MySQL</nombre>
+                <progreso>25</progreso>
+            </curso>
+            <curso id="12">
+                <nombre>Mas TERR</nombre>
+                <progreso>66</progreso>
+            </curso>
+        </cursos>
+    </usuario>
+
+    <usuario id="TEST-001">
+        <mail>a</mail>
+        <pass>qwer</pass>
+        <nombreUser>Julio Iglesias</nombreUser>
+        <pathUsu>../img/user/userTest2.png</pathUsu>
+        <id>TEST-001</id>
+        <cursos>
+            <curso id="1">
+                <nombre>Java swing</nombre>
+                <progreso>16</progreso>
+            </curso>
+            <curso id="2">
+                <nombre>Python</nombre>
+                <progreso>54</progreso>
+            </curso>
+            <curso id="3">
+                <nombre>Ruby</nombre>
+                <progreso>49</progreso>
+            </curso>
+
+        </cursos>
+    </usuario>
+    <usuario id="TEST-002">
+        <mail>test@gmail.com</mail>
+        <pass>qwerty</pass>
+        <nombreUser>Laura</nombreUser>
+        <pathUsu>../img/user/userTest3.png</pathUsu>
+        <id>TEST-002</id>
+        <cursos>
+            <curso id="10">
+                <nombre>Blender</nombre>
+                <progreso>31</progreso>
+            </curso>
+            <curso id="11">
+                <nombre>PHP MySQL</nombre>
+                <progreso>100</progreso>
+            </curso>
+            <curso id="12">
+                <nombre>Mas TERR</nombre>
+                <progreso>100</progreso>
+            </curso>
+
+        </cursos>
+    </usuario>
+    <usuario id="TEST-002">
+        <mail>test2@gmail.com</mail>
+        <pass>qwerty</pass>
+        <nombreUser>María López</nombreUser>
+        <pathUsu>../img/user/userTest3.png</pathUsu>
+        <id>TEST-003</id>
+        <cursos>
+            <curso id="10">
+                <nombre>Blender</nombre>
+                <progreso>31</progreso>
+            </curso>
+            <curso id="11">
+                <nombre>PHP MySQL</nombre>
+                <progreso>100</progreso>
+            </curso>
+            <curso id="12">
+                <nombre>Mas TERR</nombre>
+                <progreso>100</progreso>
+            </curso>
+            <curso id="1">
+                <nombre>Java swing</nombre>
+                <progreso>16</progreso>
+            </curso>
+            <curso id="2">
+                <nombre>Python</nombre>
+                <progreso>54</progreso>
+            </curso>
+            <curso id="3">
+                <nombre>Ruby</nombre>
+                <progreso>49</progreso>
+            </curso>
+        </cursos>
+    </usuario>
+</usuarios>

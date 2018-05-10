@@ -1,0 +1,172 @@
+{
+    "universidades": [
+        {
+            "nombre": "Massachusetts Institute of Technology",
+            "nombreCorto" : "M I T",
+            "url": "http://web.mit.edu/",
+            "info": {
+                "desc1": "Massachusetts Institute of Technology",
+                "desc2": "Más de 20 cursos disponibles",
+                "desc3": "La misión del Instituto de Tecnología de Massachusetts es avanzar en el conocimiento y educar a los estudiantes en ciencia, tecnología y otras áreas de investigación que sirvan mejor a la nación y al mundo en el siglo XXI. También nos sentimos impulsados a llevar el conocimiento a los grandes desafíos del mundo.",
+                "desc4": "Las áreas actuales de investigación y educación incluyen múltiples tipos de dispciplinas.",
+                "desc5": "En su fundación en 1861, el MIT fue una innovación educativa, una comunidad de solucionadores de problemas prácticos enamorados de la ciencia fundamental y deseosos de hacer del mundo un lugar mejor."
+
+            }
+
+        },
+        {
+            "nombre": "Hardvard University",
+            "nombreCorto" : "Hardvard University",
+            "url": "https://www.harvard.edu/",
+            "info": {
+                "desc1": "Hardvard University",
+                "desc2": "Más de 19 cursos disponibles",
+                "desc3": "Explore las amplias oportunidades de aprendizaje en línea de Harvard. Siga su curiosidad intelectual, desde podcasts y conferencias hasta cursos y programas.",
+                "desc4": "El programa Project Teach de Harvard busca desarrollar una identidad universitaria entre todos los estudiantes de séptimo grado de las Escuelas Públicas de Cambridge y los estudiantes de séptimo grado de las Escuelas Públicas de Boston.",
+                "desc5": "La Universidad de Harvard es una universidad de investigación privada de Ivy League en Cambridge (Massachusetts, Estados Unidos) establecida en 1636, cuya historia más prestigiosas universidades del mundo."
+
+            }
+
+        },
+        {
+            "nombre": "Berkeley University",
+            "nombreCorto" : "Berkeley University",
+            "url": "https://www.berkeley.edu/",
+            "info": {
+                "desc1": "Berkeley University of California",
+                "desc2": "Más de 18 cursos disponibles",
+                "desc3": "Desde un grupo de pioneros académicos en 1868 hasta el Movimiento de libertad de expresión en 1964, Berkeley es un lugar donde las mentes más brillantes de todo el mundo se reúnen para explorar, hacer preguntas y mejorar el mundo.",
+                "desc4": "Berkeley es un lugar glorioso. Donde quiera que te encuentres, encontrarás este compromiso con la excelencia.",
+                "desc5": "La Universidad de California fue fundada en 1868, nacida de una visión en la Constitución del estado de una universidad que contribuiría aún más que el oro de California a la gloria y la felicidad de las generaciones futuras."
+
+            }
+
+        },
+        {
+            "nombre": "The University of Texas",
+            "nombreCorto" : "University of Texas",
+            "url": "https://www.utsystem.edu/",
+            "info": {
+                "desc1": "The University of Texas System",
+                "desc2": "Más de 17 cursos disponibles",
+                "desc3": "El Sistema de la Universidad de Texas (Sistema UT) abarca 14 instituciones educativas en el estado estadounidense de Texas, de las cuales ocho son universidades académicas y seis son instituciones de salud.",
+                "desc4": "El Sistema UT tiene su sede en el centro de Austin y cuenta con una inscripción total de más de 216,000 estudiantes (el sistema universitario más grande de Texas) y emplea a más de 87,000 docentes y personal.",
+                "desc5": "El Sistema de la Universidad de Texas tiene ocho instituciones académicas separadas y distintas; cada institución es una universidad independiente y confiere sus propios títulos. Su institución más antigua y emblemática es la Universidad de Texas en Austin."
+
+            }
+
+        },
+        {
+            "nombre": "The Hong Kong University",
+            "nombreCorto" : "Hong Kong University",
+            "url": "https://www.polyu.edu.hk/web/en/home/index.html",
+            "info": {
+                "desc1": "The Hong Kong Polytechnic University",
+                "desc2": "Más de 16 cursos disponibles",
+                "desc3": "La Universidad Politécnica de Hong Kong (PolyU) es una universidad pública ubicada en Hung Hom, Hong Kong. La historia de PolyU se remonta a 1937, y asumió el estatus de universidad completa en 1994. Es una de las instituciones financiadas del Comité de Subvenciones Universitarias (UGC) del territorio.",
+                "desc4": "PolyU tiene una comunidad internacional de profesores y estudiantes con más de 440 instituciones.",
+                "desc5": "PolyU ofrece 220 programas de posgrado, pregrado y subgrado para más de 32,000 estudiantes cada año. Es la institución terciaria más grande financiada por el UGC en términos de número de estudiantes."
+
+            }
+
+        },
+        {
+            "nombre": "The University of British Columbia",
+            "nombreCorto" : "University of British",
+            "url": "https://www.ubc.ca/",
+            "info": {
+                "desc1": "The University of British Columbia",
+                "desc2": "Más de 15 cursos disponibles",
+                "desc3": "La Universidad de British Columbia (UBC) es una universidad pública de investigación con campus e instalaciones en Vancouver y Kelowna, Columbia Británica. Establecida en 1908, UBC es la institución de educación superior más antigua de Columbia Británica.",
+                "desc4": "La universidad está clasificada entre las 20 mejores universidades públicas del mundo y las dos mejores en Canadá.",
+                "desc5": "La universidad es el lugar de nacimiento de muchos avances científicos históricos. En 1962, se demostró la primera reacción de un gas noble al combinar xenón con hexafluoruro de platino."
+
+            }
+
+        },
+        {
+            "nombre": "TUDelft",
+            "nombreCorto" : "TUDelft",
+            "url": "https://www.tudelft.nl/en/",
+            "info": {
+                "desc1": "TUDelft",
+                "desc2": "Más de 14 cursos disponibles",
+                "desc3": "La Universidad Tecnológica de Delft (en holandés: Technische Universiteit Delft) también conocida como TU Delft, es la universidad tecnológica pública holandesa más grande y antigua, ubicada en Delft, Países Bajos.",
+                "desc4": "Cuenta como una de las mejores universidades para la ingeniería y la tecnología en todo el mundo, por lo general se ve dentro de los mejores 20.",
+                "desc5": "Con ocho facultades y numerosos institutos de investigación, alberga a más de 19,000 estudiantes (pregrado y postgrado), más de 2,900 científicos y más de 2,100 empleados de apoyo y administración."
+
+            }
+
+        },
+        {
+            "nombre": "Georgetown University",
+            "nombreCorto" : "Georgetown University",
+            "url": "https://www.georgetown.edu/",
+            "info": {
+                "desc1": "Georgetown University",
+                "desc2": "Más de 13 cursos disponibles",
+                "desc3": "La Universidad de Georgetown es una universidad católica de investigación privada en el barrio de Georgetown en Washington, D.C., la capital de los Estados Unidos.",
+                "desc4": "Fundada en 1789 como Georgetown College, la universidad creció hasta abarcar nueve escuelas de pregrado y postgrado, entre las que se encuentran la Escuela de Servicio Exterior, la Escuela de Negocios, el Centro Médico y la Facultad de Derecho.",
+                "desc5": "Georgetown ofrece programas de grado en cuarenta y ocho disciplinas, matriculando un promedio de 7.500 estudiantes de pregrado y 10.000 estudiantes de posgrado de más de 130 países."
+
+            }
+
+        },
+        {
+            "nombre": "Sorbonne Université",
+            "nombreCorto" : "Sorbonne Université",
+            "url": "http://www.sorbonne-universites.fr/",
+            "info": {
+                "desc1": "Sorbonne Université",
+                "desc2": "Más de 12 cursos disponibles",
+                "desc3": "La Universidad de la Sorbona es una universidad pública de investigación en París. Es el resultado de una fusión entre la Universidad Paris-Sorbonne y la Universidad Pierre y Marie Curie.",
+                "desc4": "El establecimiento de la universidad fue decretado el 21 de abril de 2017 y tuvo lugar el 1 de enero de 2018. La fecha 1257 está en el logotipo de la Universidad de la Sorbona para referirse al Colegio de la Sorbona.",
+                "desc5": "La facultad de ciencias de la Universidad de la Sorbona es un importante polo de investigación en Francia. Cuenta con más de 125 laboratorios, la mayoría de ellos en asociación con el Centro Nacional de Investigación Científica (CNRS)."
+
+            }
+
+        },
+        {
+            "nombre": "University System of Maryland",
+            "nombreCorto" : "University of Maryland",
+            "url": "https://www.usmd.edu/",
+            "info": {
+                "desc1": "University System of Maryland",
+                "desc2": "Más de 11 cursos disponibles",
+                "desc3": "El Sistema Universitario de Maryland (USM) es una corporación pública y un sistema de escuelas charter que comprende 12 instituciones de Maryland de educación superior.",
+                "desc4": "El sistema tenía sus raíces en 1963 cuando la Asamblea General de Maryland creó la Junta de Fideicomisarios de los Colegios Estatales para asumir el control de cinco ex colegios estatales de maestros: Bowie State, Coppin State y Frostburg.",
+                "desc5": "Es el 12 ° sistema universitario más grande de los Estados Unidos, con más de 125,000 estudiantes de pregrado, 43,000 graduados y aproximadamente 13,000 docentes de tiempo completo y medio tiempo combinados."
+
+            }
+
+        },
+        {
+            "nombre": "The University of Queensland",
+            "nombreCorto" : "University of Queensland",
+            "url": "https://www.uq.edu.au/",
+            "info": {
+                "desc1": "The University of Queensland",
+                "desc2": "Más de 10 cursos disponibles",
+                "desc3": "La Universidad de Queensland (UQ) es una universidad de investigación ubicada principalmente en la capital de Queensland, Brisbane, Australia.",
+                "desc4": "Fundada en 1909 por el parlamento estatal, UQ es la quinta universidad más antigua de Australia y se la conoce coloquialmente como una universidad de arenisca. El campus principal de Santa Lucía ocupa gran parte del suburbio interior de Santa Lucía.",
+                "desc5": "La universidad ofrece grados de asociado, licenciatura, maestría y doctorado a través de una universidad, una escuela de posgrado y seis facultades. UQ incorpora más de cien institutos y centros de investigación."
+
+            }
+
+        },
+        {
+            "nombre": "RWTH AACHEN University",
+            "nombreCorto" : "RWTH AACHEN",
+            "url": "http://www.rwth-aachen.de/cms/~a/root/?lidx=1",
+            "info": {
+                "desc1": "RWTH AACHEN University",
+                "desc2": "Más de 10 cursos disponibles",
+                "desc3": "RWTH Aachen University es una universidad de investigación ubicada en Aachen, Renania del Norte-Westfalia, Alemania.",
+                "desc4": "La universidad mantiene vínculos estrechos con la industria (uno de cada cinco miembros de la junta directiva de grupos empresariales alemanes ha estudiado en Aachen) y representa la mayor cantidad de fondos de terceros de todas las universidades alemanas en términos absolutos y relativos por miembro de la facultad.",
+                "desc5": "Con más de 42,000 estudiantes matriculados en 144 programas de estudio, es la universidad técnica más grande en Alemania. En 2007, RWTH Aachen fue elegida como una de las nueve universidades alemanas de excelencia para su futuro concepto RWTH 2020."
+
+            }
+
+        }
+    ]
+}

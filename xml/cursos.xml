@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cursos>
+    <curso id="1">
+        <nombre>Java swing</nombre>
+        <categoria>Programación</categoria>
+        <nombreUni>Massachusetts Institute of Technology</nombreUni>
+        <pathImg>../img/cursos/java.png</pathImg>
+        <desc>Curso de Java swing desde 0</desc>
+        <desc>Crear aplicaciones Web y Empresariales Java con competencias reales para conseguir oportunidades en el mercado laboral y profesional como programador Java</desc>
+        <desc>Sienta las bases para comenzar tu preparación de certificación como programador Java</desc>
+        <progreso>100</progreso>
+    </curso>
+    <curso id="2">
+        <nombre>Python</nombre>
+        <categoria>Programación</categoria>
+        <nombreUni>Hardvard University</nombreUni>
+        <pathImg>../img/cursos/python.png</pathImg>
+        <desc>Fundamentos de Python</desc>
+        <desc>¿Listo para más fundamentos de Python paso a paso y más prácticos? Agregue a la experiencia fundamental del curso de Introducción a Python: Absolute Beginner, y explore estructuras de datos.</desc>
+        <desc> Aprenderás a analizar y visualizar los datos así como modificarlos para adaptarlos al problema.</desc>
+        <progreso>90</progreso>
+    </curso>
+    <curso id="3">
+        <nombre>Ruby</nombre>
+        <categoria>Programación</categoria>
+        <nombreUni>Berkeley University</nombreUni>
+        <pathImg>../img/cursos/ruby.png</pathImg>
+        <desc>Desarrollo ágil usando Ruby on Rails</desc>
+        <desc>Aprenda a aplicar técnicas Agile para mejorar y refactorizar el código heredado para convertirse en un verdadero desarrollador de Ruby on Rails.</desc>
+        <desc>Además de desarrollar Aplicaciones en Ruby podrás desarrollar aplicaciones web sencillas con rails y desarrollar aplicaciones web sencillas con sinatra </desc>
+        <progreso>80</progreso>
+    </curso>
+    <curso id="4">
+        <nombre>Linux</nombre>
+        <categoria>Programación</categoria>
+        <nombreUni>The University of Texas</nombreUni>
+        <pathImg>../img/cursos/linux.png</pathImg>
+        <desc>Introducción a Linux</desc>
+        <desc>Desarrolle un buen conocimiento práctico de Linux utilizando tanto la interfaz gráfica como la línea de comando, cubriendo las principales familias de distribución de Linux.</desc>
+        <desc>Administrarás sistemas GNU/Linux (Debian, Ubuntu, CentOS, Fedora, RedHat, Oracle Linux , etc), te manejarás problemas cotidianos que se le presentan a un SysAdmin de GNU/Linux y automatizarás procesos y planes de mantenimiento.</desc>
+        <progreso>70</progreso>
+    </curso>
+    <curso id="5">
+        <nombre>CSS</nombre>
+        <categoria>Programación</categoria>
+        <nombreUni>The Hong Kong University</nombreUni>
+        <pathImg>../img/cursos/css3.png</pathImg>
+        <desc>Conceptos Avanzados de CSS</desc>
+        <desc>Obtenga una base sólida en el desarrollo y prueba de sitios web amigables para dispositivos utilizando el poder de CSS.</desc>
+        <desc>Serás capaz de optimizar la aplicación de reglas de CSS mediante selectores avanzados, crear gradients o esfumados CSS, usar fuentes web con la regla @font-face y con servicios online...</desc>
+        <progreso>60</progreso>
+    </curso>
+    <curso id="6">
+        <nombre>Docker</nombre>
+        <categoria>Programación</categoria>
+        <nombreUni>The University of British Columbia</nombreUni>
+        <pathImg>../img/cursos/docker.png</pathImg>
+        <desc>Fundamentos de los contenedores</desc>
+        <desc>Aprenda técnicas prácticas para crear y desplegar contenedores en un clúster de Kubernetes utilizando Red Hat OpenShift Container Platform.</desc>
+        <desc>Podrás utilizar Docker como plataforma de contenedores en cualquier entorno, sabrás construir y desplegar sus propios servicios utilizando Docker y aprenderás a crear sus propios registros privados para la imágenes de Docker.</desc>
+        <progreso>50</progreso>
+    </curso>
+    <curso id="7">
+        <nombre>Inteligencia Artificial</nombre>
+        <categoria>Robótica</categoria>
+        <nombreUni>TUDelft</nombreUni>
+        <pathImg>../img/cursos/ai.png</pathImg>
+        <desc>Introducción a la IA</desc>
+        <desc>Una descripción general de alto nivel de AI para aprender cómo Machine Learning proporciona la base para la inteligencia artificial y cómo puede aprovechar los servicios cognitivos en sus aplicaciones.</desc>
+        <desc>Entenderás los impactos, riesgos y oportunidades de implementar la inteligencia artificial en las empresas.</desc>
+        <progreso>40</progreso>
+    </curso>
+    <curso id="8">
+        <nombre>Robotics</nombre>
+        <categoria>Robótica</categoria>
+        <nombreUni>Georgetown University</nombreUni>
+        <pathImg>../img/cursos/robotics.png</pathImg>
+        <desc>Introducción a la Robítica</desc>
+        <desc>Aprende las técnicas básicas para representar robots que realizan tareas físicas en el mundo real.</desc>
+        <desc>Modelar y diseñar edificios de concreto armado y acero en RSA, crear el modelo analítico de la estrucutra, calcular y diseñar conexiones metálicas según normativa, crear el modelo geométrico en el programa, crear detallados de acero de refuerzo.</desc>
+        <progreso>30</progreso>
+    </curso>
+    <curso id="9">
+        <nombre>Unity</nombre>
+        <categoria>Diseño</categoria>
+        <nombreUni>Sorbonne Université</nombreUni>
+        <pathImg>../img/cursos/unity.png</pathImg>
+        <desc>Introducción al diseño y balanceo</desc>
+        <desc>Aprenda sobre el proceso de diseño de videojuegos y experimente con métodos efectivos para equilibrar la mecánica de un juego con Unity.</desc>
+        <desc>Entenderás conceptos técnicos y profesionales de nivel básico, medio y avanzado acerca del desarrollo de videojuegos con Unity 5.x y 2017, tendrás el suficiente conocimiento para poder adentrarte y trabajar en el sector profesional de desarrollo de videojuegos.</desc>
+        <progreso>20</progreso>
+    </curso>
+    <curso id="10">
+        <nombre>Blender</nombre>
+        <categoria>Diseño</categoria>
+        <nombreUni>University System of Maryland</nombreUni>
+        <pathImg>../img/cursos/blender.png</pathImg>
+        <desc>Animación 3D básica con Blender</desc>
+        <desc>Aprende los principios básicos de la animación 3D, incluidos los principios de clave, tiempo y animación, utilizando la herramienta de fuente abierta y gratuita: Blender.</desc>
+        <desc>Serás capaz de desarrollar tus propios proyectos 3D. El punto de partida si te interesa dedicarte de forma profesional al sector del videojuego, cine o publicidad.</desc>
+        <progreso>10</progreso>
+    </curso>
+    <curso id="11">
+        <nombre>PHP MySQL</nombre>
+        <categoria>Programación</categoria>
+        <nombreUni>The University of Queensland</nombreUni>
+        <pathImg>../img/cursos/php.png</pathImg>
+        <desc>Ingeniería de Software con PHP, HTML5 y Material Design</desc>
+        <desc>Contaras con la habilidad de manejar datos de manera segura y optimizada por medio de mysqli y php.</desc>
+        <desc>Capaz de hacer cualquier Aplicación Web desde 0 con PHP, MYSQL y Aprendes a montar tu propio servidor Web de Acceso tanto Local como Remoto (Accediendo desde Cualquier País). Registrar, Modificar y Eliminar Datos Contenidos en Tu BD desde PHP.</desc>
+        <progreso>25</progreso>
+    </curso>
+    <curso id="12">
+        <nombre>Mas TERR</nombre>
+        <categoria>Mentiras arriesgadas</categoria>
+        <nombreUni>RWTH AACHEN University</nombreUni>
+        <pathImg>../img/cursos/cifuentes.png</pathImg>
+        <desc>Aférrate a tu puesto a toda costa</desc>
+        <desc>Aprende sobre cómo falsificar documentos, que te pillen y a hundirte con el barco como buen capitán. Venga un abrazo.</desc>
+        <desc>Además de regalo se ofrece un curso de contabilidad B vía plasma. Si te apuntas ya incorporamos al lote discos duros (martillo incluido) y tarifa premium de WhatssApp para que puedas decirles a tus amigos y familiares que sean fuertes si les trincan robando. </desc>
+        <progreso>66</progreso>
+    </curso>
+</cursos>
