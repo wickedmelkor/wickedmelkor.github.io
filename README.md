@@ -11,8 +11,7 @@ Future projects will be full responsive, I´m working on it :) .
 
 - Don´t try to register, that functionality is not implemented because this page is not going to be official/commercial... the only purpose is apply things that I have learnt studying html + css.
 
-- If you want to explore the web page you can use this fake account at logging section:
-User: test2@gmail.com
+- If you want to explore the web page you can use this fake account at logging section:                                               User: test2@gmail.com
 Password: qwerty
 
 - Changing user picture only can be done locally.
