@@ -1,0 +1,139 @@
+.card2 {
+    margin-top: 8%;
+}
+
+.logo {
+    left: 32%;
+}
+
+.login {
+    margin-left: 35%;
+    width: 350px;
+}
+
+.search {
+    position: fixed;
+    top: 0.5%;
+    left: 20%;
+    z-index: 20;
+}
+
+.searchHeader,
+.searchFooter {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font: normal 3em "MyFont4";
+    background-color: #51588D;
+    color: #ABBEEC;
+}
+
+.searchFooter {
+    cursor: pointer;
+}
+
+.searchOutput {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #B6C8EF;
+
+}
+
+.displayedList {
+    width: 100%;
+    min-height: 300px;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.displayedList > li {
+    font: normal 1em "MyFont3";
+    position: relative;
+    list-style: none;
+    width: 300px;
+    height: 400px;
+    background-color: #F2F2F7;
+    box-shadow: 0.1em 0.1em 0.1em black;
+    margin: 5% 2% 5% 0%;
+}
+
+.displayedList > li > img {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150px;
+}
+
+.displayedList > li > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(100, 100, 150, 0.2);
+}
+
+.displayedList > li > h3 {
+    margin-top: 50%;
+    width: 100%;
+    height: 68px;
+    text-align: center;
+    background-color: rgba(65, 95, 170, 0.2);
+}
+
+.displayedList > li > p {
+    font-size: 0.8em;
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.displayedList > li > a {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font: normal 1.5em "MyFont2";
+    text-align: center;
+    background-color: #415FA5;
+    color: #B6C8EF;
+}
+
+.displayedList > li > a:hover,
+.searchFooter:hover {
+    color: white;
+    text-shadow: 0.1em 0.1em 0em black;
+}
+
+.loadAnimation {
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 48%;
+    bottom: 200px;
+    border-left: 6px solid #415FA5;
+    border-right: 6px solid #415FA5;
+    border-radius: 50%;
+    z-index: 20;
+    animation: loading 1s infinite alternate;
+}
+
+@keyframes loading {
+    0% {
+        width: 100px;
+        height: 100px;
+        border-left: 6px solid #415FA5;
+        border-right: 6px solid #415FA5;
+        transform: rotate(0deg);
+    }
+    100% {
+        width: 62px;
+        height: 62px;
+        border-left: 6px dashed green;
+        border-right: 6px dashed green;
+        transform: rotate(720deg);
+    }
+}

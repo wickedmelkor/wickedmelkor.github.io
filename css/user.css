@@ -1,0 +1,433 @@
+body,
+html {
+    overflow: visible;
+    height: 100%;
+}
+
+.login > ul {
+    margin-left: -25%;
+}
+
+.card1 {
+    position: relative;
+    overflow: visible;
+    height: 100%;
+}
+
+.userPanel {
+    position: fixed;
+    top: 6.2%;
+    left: 0;
+    width: 550px;
+    background-color: #627FC2;
+    height: 500px;
+    transition: 0.5s ease 0.1s;
+}
+
+.userPanel:hover {
+    transform: translateY(10px) translateX(10px);
+    box-shadow: 0.5em 0.5em 0.5em black
+}
+
+.imgChooser,
+.options {
+    position: absolute;
+    font: normal 20px "MyFont2";
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #B6C8EF;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.imgChooser {
+    top: 4%;
+    height: 80px;
+}
+
+.options {
+    top: 75%;
+    height: 100px;
+}
+
+.options > ul {
+    margin: 6.5% 0% 0% -10%;
+}
+
+.options > ul > li {
+    list-style: none;
+    display: inline;
+    cursor: pointer;
+    margin: 0% 3% 0% 3%;
+    font-size: 18px;
+}
+
+.options > ul > li:hover {
+    text-shadow: 0.15em 0.15em 0em black;
+    color: white;
+}
+
+.imgChooser > * {
+    position: absolute;
+}
+
+.imgChooser > input {
+    top: 50%;
+    left: 18%;
+    color: transparent;
+}
+
+.imgChooser > span {
+    top: 15%;
+    left: 16%;
+}
+
+.imgChooser > button {
+    top: 6%;
+    left: -25%;
+}
+
+.userCardContainer {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 25%;
+    left: 13%;
+    -webkit-perspective: 700;
+
+}
+
+.userCard {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: 1.5s ease 0.1s;
+    transform-style: preserve-3d;
+}
+
+.userCard:hover {
+    transform: rotateY(180deg);
+}
+
+.face {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.A {
+    overflow: hidden;
+    position: absolute;
+    background-image: url(../img/user/cardA.png);
+    background-size: cover;
+}
+
+.B {
+    transform: rotateY(180deg);
+    background-image: url(../img/user/cardA.png);
+    background-size: cover;
+}
+
+.A > img {
+    width: 90px;
+    height: 100px;
+    float: left;
+
+    margin: 5% 5% 0% 5%;
+    border: 2px solid black;
+}
+
+.A > p:last-child {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 16px;
+    z-index: 4;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
+
+.button {
+    margin: 2% -10% 5% 80%;
+    font: bold 15px "Leelawadee";
+    background-color: #D2D2E4;
+    padding: 5px;
+    outline: none;
+    border-radius: 3px;
+    padding: 15px;
+    color: #1F5FFF;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: 0.5s ease 0.1s;
+}
+
+.button:hover {
+    color: white;
+    background-color: #415FA5;
+    box-shadow: 0.3em 0.3em 0.1em black;
+}
+
+.userInfo,
+label {
+    font: bold 20px "MyFont3";
+    color: #E5ECFC;
+    text-shadow: 0.1em 0.1em 0em black;
+}
+
+.userInfo:last-child {
+    text-align: center;
+}
+
+label {
+    margin-left: 4%;
+}
+
+.B > label > input {
+    margin: 4% 0% 2% -1%;
+}
+
+label:nth-child(3) {
+    margin-left: 9.1%;
+}
+
+.B > label:nth-child(3) > input {
+    margin: 5% 0% 0% 1%;
+}
+
+input[type=password] {
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+.pass {
+    top: 70%;
+    left: -5%;
+    padding: 10px;
+}
+
+.cabecera {
+    font: bold 2em "MyFont2";
+    background-color: #627FC2;
+    letter-spacing: 5px;
+    color: #E5ECFC;
+    padding: 1em 0em 1em 2em;
+    width: 50%;
+    height: 10%;
+    margin: 7% 36% 0% 35%;
+    text-shadow: 0.15em 0.15em 0em black;
+}
+
+.output {
+    background-color: #415FA5;
+    display: table;
+    width: 50%;
+    margin: 0% 0% 0% 35%;
+}
+
+.output > ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media(max-width:1600px) {
+    .output {
+        width: 50%;
+        margin: 0% 0% 0% 40%;
+    }
+    .cabecera {
+        margin: 7% 36% 0% 40%;
+    }
+    
+    .output > ul {
+        grid-template-columns: 40% 40%;
+    }
+    .output > ul > li {
+        margin: 0% 1% 15% 0%;
+    }
+}
+
+@media(max-width:1300px) {
+    .output {
+        width: 50%;
+        margin: 0% 0% 0% 55%;
+    }
+    .cabecera {
+        margin: 5% 36% 0% 55%;
+    }
+    .output > ul {
+        grid-template-columns: 10%;
+    }
+    .output > ul > li {
+        margin: 5% auto;
+    }
+}
+
+.output > ul > li {
+    position: relative;
+    list-style: none;
+    box-shadow: 0.1em 0.1em 0.2em black;
+    width: 200px;
+    height: 250px;
+    margin-bottom: 15%;
+}
+
+.output > ul > li:hover div {
+    visibility: visible;
+    opacity: 1;
+}
+
+.output > ul > li > * {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.output > ul > li > img {
+    position: absolute;
+    width: 210px;
+    height: 120px;
+    left: -2.5%;
+    top: -2%;
+}
+
+.output > ul > li > h3 {
+    font: normal 25px "MyFont4";
+    margin-top: 55%;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.output > ul > li > h4 {
+    font: normal 16px "MyFont3";
+    margin-top: -10%;
+    color: black;
+}
+
+.output > ul > li > span {
+    position: absolute;
+    font: normal 10px "MyFont3";
+    width: 100%;
+    height: 20px;
+    top: 36%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.output > ul > li > div {
+    position: absolute;
+    visibility: hidden;
+    font: normal 14px "MyFont3";
+    opacity: 0;
+    z-index: 10;
+    top: -30%;
+    left: 105%;
+    width: 280px;
+    height: 400px;
+    transition: 0.5s ease 0s;
+}
+
+.output > ul > li > div > div {
+    font: normal 26px "MyFont4";
+    text-align: left;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    letter-spacing: 1px;
+    border-bottom: 3px solid black;
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+}
+
+.output > ul > li > div > div > h4 {
+    margin-top: 4.5%;
+    margin-left: 10%;
+    z-index: 1000;
+}
+
+.progreso {
+    z-index: -1;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+
+.output > ul > li > div > h3 {
+    font-size: 30px;
+    width: 104%;
+    background-color: #51588D;
+    color: #D1D3E3;
+    margin: 16.5% 0% 0% -2%;
+    padding-bottom: 0.2em;
+}
+
+.output > ul > li > div > p {
+    text-align: justify;
+    padding: 1em;
+    margin-top: -2%;
+}
+
+.output > ul > li > div > div:last-child {
+    top: 88%;
+    font: normal 25px "MyFont2";
+    color: #E5ECFC;
+    text-align: center;
+    padding-top: 0.5em;
+    background-color: #51588D;
+    cursor: pointer;
+}
+
+.courseSelector {
+    position: relative;
+}
+
+.categoryContainer {
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 300px;
+
+}
+
+.courseSelector:nth-child(3):hover > div {
+    visibility: visible;
+}
+
+.output > ul > li > div > div:last-child:hover {
+    text-shadow: 0.1em 0.1em 0em black;
+    color: white;
+}
+
+.output > ul > li:nth-child(odd) {
+    background-color: #E5ECFC;
+}
+
+.output > ul > li:nth-child(even) {
+    background-color: #B6C8EF;
+}
+
+.output > ul > li:nth-child(odd) > div {
+    background-color: #E5ECFC;
+}
+
+.output > ul > li:nth-child(even) > div {
+    background-color: #B6C8EF;
+}
+
+.pValue {
+    visibility: hidden;
+}

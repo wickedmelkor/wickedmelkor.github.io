@@ -1,0 +1,125 @@
+.card1 {
+    height: 100%;
+    background-image: none;
+    background-color: #627FC2;
+}
+
+.card1 > header {
+    position: fixed;
+    z-index: 20;
+}
+
+.formContainer {
+    width: 450px;
+    height: 320px;
+    background-color: rgba(50, 50, 255, 0.1);
+    position: fixed;
+    z-index: 5;
+    top: 60%;
+    left: -39%;
+}
+
+.logBut {
+    top: -10%;
+    left: 37%;
+    cursor: default;
+}
+
+form {
+    margin-top: 10%;
+    width: 90%;
+    height: 75%;
+    background-color: rgba(100, 100, 255, 0.2);
+
+}
+
+form > label > input {
+    color: black;
+}
+
+form > label:first-child {
+    margin-top: 2%;
+}
+
+input[type=button] {
+    background-color: rgba(200, 200, 200, 0.2);
+    width: 320px;
+    top: 32%;
+    left: 75%;
+}
+
+
+
+.card1 > h3 {
+    font: normal 50px 'MyFont4';
+    color: #E5ECFC;
+    position: fixed;
+    left: 7%;
+    top: 15%;
+    cursor: default;
+    z-index: 2;
+    transition: 1s ease 0.1s;
+}
+
+.card1 > h3:hover {
+    text-decoration: underline;
+
+}
+
+#videoCanvas {
+    position: fixed;
+    top: 56.9%;
+    z-index: 0;
+}
+
+video {
+    visibility: hidden;
+}
+
+.one {
+    background-image: url(../img/login/register0.png);
+}
+
+.two {
+    background-image: url(../img/login/register1.png);
+}
+
+.three {
+    background-image: url(../img/login/register2-3.jpg);
+}
+
+.info {
+    font: normal 1.6vw "MyFont3";
+    position: relative;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 2% 0% 0% 0%;
+    background-color: #627FC2;
+    color: #D1D3E3;
+}
+
+.info > p {
+    width: 30%;
+    margin: 0 auto;
+    position: absolute;
+    display: inline-block;
+}
+
+.info > p:first-child {
+    top: 15%;
+    left: 20%;
+}
+
+.info > p:last-child {
+    top: 40%;
+    left: 55%;
+}
+
+.space {
+    width: 100vw;
+    height: 100vh;
+    background-color: #627FC2;
+}
+

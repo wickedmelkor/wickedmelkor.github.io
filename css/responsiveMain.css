@@ -1,0 +1,281 @@
+@media(max-width:1925px) {
+    .card1 > header > nav > ul {
+        margin-left: 0%;
+    }
+
+    .card2,
+    .infoContainer {
+        min-height: 380px;
+        max-height: 380px;
+        margin-top: 44.5vh;
+    }
+    .schoolWraper:before {
+        left: -60.5%;
+        top: 0;
+    }
+
+    .schoolWraper:after {
+        top: 0;
+        right: -60.5%;
+    }
+    .schoolWraper {
+        margin: 23.5% auto;
+    }
+    canvas {
+        margin: -23.5% auto;
+    }
+}
+
+@media(max-width:1680px) {
+    .login {
+        margin-left: 10%;
+    }
+
+    .card2,
+    .infoContainer {
+        min-height: 360px;
+        max-height: 360px;
+    }
+    .schoolWraper:before {
+        left: -60.5%;
+        top: 0;
+    }
+
+    .schoolWraper:after {
+        top: 0;
+        right: -60.5%;
+    }
+    .schoolWraper {
+        margin: 26.1% auto;
+    }
+    canvas {
+        margin: -26.1% auto;
+    }
+
+}
+
+@media(max-width:1450px) {
+
+    .login {
+        margin-left: 5%;
+    }
+    .eslogan {
+        transform: rotate(-30deg);
+
+    }
+    .schoolWraper:before {
+        left: -59%;
+    }
+
+    .schoolWraper:after {
+        right: -59%;
+    }
+    .left {
+        left: -5%;
+    }
+
+    .right {
+        right: -4.5%;
+    }
+    .schoolWraper {
+        margin: 26% auto;
+    }
+    canvas {
+        margin: -26% auto;
+    }
+}
+
+@media(max-width:1280px) {
+    .login {
+        margin-left: 2%;
+    }
+    .headerImg img {
+        width: 100vw;
+        height: 40vh;
+    }
+    .eslogan {
+        font-size: 30px;
+        top: 40%;
+    }
+    .left {
+        left: 0%;
+    }
+
+    .right {
+        right: -0.5%;
+    }
+    .schoolWraper {
+        margin: 28% auto;
+    }
+    canvas {
+        margin: -28% auto;
+    }
+    #info4 {
+        visibility: hidden;
+    }
+}
+
+@media(max-width:1180px) {
+    .login {
+        margin-left: 0%;
+    }
+    .card1 > header > nav > ul > li {
+        margin: 0% 0.3%;
+    }
+    .schoolWraper {
+        width: 100%;
+    }
+    .schoolWraper:before,
+    .schoolWraper:after {
+        content: none;
+    }
+    .left {
+        left: 0%;
+    }
+
+    .right {
+        right: 0%;
+    }
+    .search {
+        top: 50%;
+        left: 40%;
+    }
+    .eslogan {
+        transform: rotate(-10deg);
+        top: 30%;
+        left: 10%;
+    }
+}
+
+@media(max-width:955px) {
+
+    .card1 > header > nav > ul > li {
+        margin: 0%;
+    }
+    .login {
+        margin-left: -5%;
+    }
+    #info3 {
+        visibility: hidden;
+    }
+}
+
+@media(max-width:885px) {
+    .card1 > header > nav > ul > li {
+        margin: 0%;
+    }
+    .logo {
+        display: none;
+    }
+    .login {
+        margin-left: -5%;
+    }
+    .arrow {
+        width: 50px;
+        height: 50px;
+    }
+    .search {
+        top: 40%;
+        left: 30%;
+    }
+    .eslogan {
+        transform: rotate(-12deg);
+        top: 25%;
+        left: 10%;
+    }
+
+}
+
+@media(max-width:775px) {
+    .card1 > header > nav > ul > li:nth-child(odd) {
+        display: none;
+    }
+    .headerImg img {
+        width: 100vw;
+        height: 60vh;
+    }
+    .schoolWraper {
+        margin: 40% auto;
+    }
+    canvas {
+        margin: -40% auto;
+    }
+}
+
+@media(max-width:545px) {
+    .login {
+        margin-left: -10%;
+    }
+    .schoolContainer > a > img {
+        height: 6vh;
+
+    }
+    .schoolWraper {
+        height: 6vh;
+    }
+    .arrow {
+        width: 40px;
+        height: 40px;
+    }
+    .headerImg img {
+        width: 100vw;
+        height: 70vh;
+    }
+    .schoolWraper {
+        margin: 50% auto;
+    }
+    canvas {
+        margin: -50% auto;
+    }
+}
+
+@media(max-width:575px) {
+    .card1 > header > nav > ul > li {
+        font-size: 16px;
+    }
+    .login > ul > li {
+        font-size: 16px;
+    }
+    .login {
+        width: 166px;
+    }
+    #info2 {
+        visibility: hidden;
+    }
+}
+
+@media(max-width:424px) {
+    .card1 > header > nav > ul > li {
+        font-size: 13px;
+        margin-left: -5%;
+    }
+    .login > ul > li {
+        font-size: 13px;
+    }
+    .login > ul > li:last-child {
+        display: block;
+    }
+    .login {
+
+        width: 145px;
+    }
+    #info1{
+        visibility: hidden;
+    }
+    .eslogan {
+        transform: rotate(-2deg);
+        top:3%;
+    }
+    .search {
+        top: 30%;
+        left: 2%;
+    }
+    .arrow {
+        width: 40px;
+        height: 40px;
+    }
+    canvas{
+        height: 40vh;
+    }
+
+}

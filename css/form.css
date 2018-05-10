@@ -1,0 +1,171 @@
+.card1 {
+    background-image: url(../img/login/backg3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.card1 > header {
+    margin-top: 2%;
+}
+
+.login {
+    margin-left: 1%;
+}
+
+.spacer {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 15%;
+}
+
+.motivation {
+    margin-top: 18%;
+    margin-left: 23%;
+    margin-bottom: 4.5%;
+}
+
+.motivation > p {
+    font-family: 'MyFont';
+    font-size: 2.5vw;
+    margin-left: 40%;
+    margin-top: -15%;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    padding: 15px 30px 15px 50px;
+    transform: rotate(-15deg);
+    transition: 3s ease 0.1s;
+}
+
+.motivation > p:hover {
+    text-decoration: underline;
+    background-color: #D1D3E3;
+    border: 2px solid #51588D;
+    color: #415FA5;
+}
+
+
+.formContainer {
+    width: 400px;
+    height: 200px;
+    background-color: #627FC2;
+    margin: -14% 0% -10% 40%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid black;
+    position: relative;
+    transition: 1s ease 0.1s;
+}
+
+
+
+.logBut {
+    position: absolute;
+    color: #E5ECFC;
+    font: normal 30px "MyFont2";
+    text-shadow: 0.1em 0.1em 0em black;
+    top: -5%;
+    left: 40%;
+    z-index: 4;
+}
+
+form {
+    color: dodgerblue;
+    font: normal 30px "MyFont3";
+    background-color: #3B5DA7;
+    position: relative;
+    margin: 5% auto;
+    width: 90%;
+    height: 80%;
+    border: 2px dashed navajowhite;
+    border-radius: 15px;
+}
+
+form > * {
+    font-size: 16px;
+    text-shadow: 0.1em 0.1em 0em black;
+    color: #D1D3E3;
+    display: inline-block;
+}
+
+form > label {
+    width: 97%;
+    padding: 0px 0px 0px 15px;
+}
+
+form > label:first-child {
+    margin-top: 10%;
+}
+
+form > label > input {
+    margin: 15px;
+    font-size: 16px;
+    background-color: rgba(209, 211, 227, 0.7);
+    color: #E5ECFC;
+    outline: none;
+}
+
+input[type=button] {
+    color: dodgerblue;
+    position: absolute;
+    padding: 25px 15px;
+    font: normal 19px "MyFont4";
+    width: 200px;
+    left: 88%;
+    top: 25.5%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 3px solid black;
+    cursor: pointer;
+    transform: rotate(90deg);
+    transition: 1s ease 0.1s;
+    outline: none;
+}
+
+.formContainer:hover {
+    background-color: rgba(100, 100, 255, 0.2);
+
+}
+
+input[type=button]:hover {
+    box-shadow: 0em 0em 2em 0.3em #0839BF,
+    inset 0.05em 0.05em 1em 0em #3066E5;
+}
+
+.welcome {
+    visibility: hidden;
+    padding: 20px 20px 20px 80px;
+    position: absolute;
+    font-family: 'MyFont3';
+    font-size: 30px;
+    left: 40%;
+    top: 38%;
+    width: 500px;
+    z-index: 10;
+    color: black;
+    background-color: #51588D;
+    border: 2px solid #3066E5;
+    animation: welcome 2s infinite ease alternate;
+}
+
+@keyframes welcome {
+
+    from {
+        transform: scale(0.95);
+        color: black;
+        background-color: #B6C8EF;
+    }
+    to {
+        transform: scale(1.15);
+        color: #B6C8EF;
+        background-color: #415FA5;
+    }
+}
+
+.mainFooter {
+    height: 25.4vh;
+    margin-top: -5%;
+}

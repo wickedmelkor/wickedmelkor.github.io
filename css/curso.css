@@ -1,0 +1,88 @@
+.login {
+    margin-left: -5%;
+}
+
+.courseHeader,
+.data header,
+.card2 footer {
+    font: normal 4em "MyFont4";
+}
+
+.courseHeader {
+    width: 100%;
+    height: 15vh;
+    text-align: left;
+    padding: 1em 0em 0em 4em;
+    margin-top: -20.5%;
+    background-color: #415FA5;
+    color: #B6C8EF;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.grid p{
+    font: normal 16px "MyFont3";
+    text-align: justify;
+    padding: 0px 15px;
+}
+@media(max-width:1680px){
+    .grid p{
+        font-size: 14px;
+    }
+}
+.lesson {
+    height: 77vh;
+}
+iframe{
+    background-image: url(../img/login/backg1.jpg);
+    background-repeat: no-repeat;
+    background-position: left top 15%;
+}
+.video > iframe {
+    width: 100%;
+    height: 99.6%;
+}
+
+.data header,
+.card2 footer {
+    background-color: #627FC2;
+    color: white;
+
+}
+
+.data header {
+    width: 100%;
+    height: 100px;
+    padding: 20px 0px 0px 50px;
+}
+
+.card2 footer {
+    position: absolute;
+    font-size: 3em;
+    right: 0;
+    bottom: 3px;
+    text-align: right;
+    padding-right: 100px;
+    width: 50%;
+}
+.previousLesson{
+    margin-right: 45%;
+}
+.nextLesson, .previousLesson{
+    display: inline-block;
+    cursor: pointer;
+}
+.nextLesson:hover, .previousLesson:hover{
+    text-shadow: 0.05em 0.05em 0em black;
+}
+.blocky{
+    width:100%;
+    height: 80%;
+}
+.practice{
+    width:100%;
+    height: 90%;
+}
