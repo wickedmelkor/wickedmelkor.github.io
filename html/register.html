@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <title>Academy-ON</title>
+    <link rel="icon" type="image/png" href="../img/logo2.png">
+    <link rel="stylesheet" type="text/css" href="../css/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/canvasVideo.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/mainCanvas.js"></script>
+
+</head>
+
+<body onload="loadSlider(), loadVideo()">
+
+    <section id="card1" class="card1">
+        <header>
+            <nav>
+                <ul>
+                    <div class="login">
+                        <ul>
+                            <li id="login"><a id="loginLink" href="../html/login.html">
+                        Login
+                    </a></li>
+                            <li id="register"><a id="regLink" href="../index.html">
+                        Atrás
+                    </a></li>
+
+                        </ul>
+                    </div>
+                    <li>Cursos
+                        <div class="categoryContainer other">
+                            <ul>
+                                <li>Programación</li>
+                                <li>Robótica</li>
+                                <li>Diseño</li>
+                                <li>Mentiras arriesgadas</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="scholarship">Becas</li>
+                    <li class="logo" id="logo"><a href="../index.html"></a></li>
+                    <li>
+                        Escuelas
+                        <div class="categoryContainer other2">
+                            <ul>
+                                <!--data VIA JSON-->
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="../index.html#aboutus">Sobre nosotros</a></li>
+                </ul>
+
+            </nav>
+        </header>
+        <canvas id="videoCanvas"></canvas>
+        <video src="../videos/promo1.mp4"></video>
+        <h3>Vive la experiencia</h3>
+        <article class="formContainer blur">
+            <h3 class="logBut">Regístrate</h3>
+            <form class="blur" id="form" name="userForm" action="">
+                <label>
+                    E-Mail:
+                    <input type="email" name="mail" size="27" required>
+
+                </label>
+                <label>
+                  Contraseña:
+                    <input type="password" name="pass" maxlength="27" size="22" required>
+
+                </label>
+                <label>
+                  Contraseña:
+                    <input type="password" name="repass" maxlength="27" size="22" required>
+
+                </label>
+                <label>
+                  Nombre:
+                    <input type="text" name="name" maxlength="27" size="25" required>
+
+                </label>
+                <input class="blur" id="submit" type="button" value="Confirmar">
+            </form>
+        </article>
+
+    </section>
+    <section class="paralax">
+        <h3>Decubre Academy-ON (haz scroll)</h3>
+        <div class="bg one">
+            Olvídate de los libros...
+        </div>
+        <div class="info">
+            <p>
+                En Academy-ON tienes acceso a más de 500 cursos online en los que participan 12 universidades de las más prestigiosas del mundo.
+            </p>
+            <p>
+                Cursa tus estudios de forma gratuita, cumple con tus objetivos académicos.
+            </p>
+        </div>
+        <div class="bg two">
+            Únete a la comunidad de Academy-ON
+        </div>
+        <div class="info">
+            <p>
+                Ya somos > 1.000.000 de alumnos y profesores los que apostamos por Academy-ON...
+            </p>
+            <p>
+                Contamos con la comunidad más activa de Europa. Participa en los foros, comparte tus dudas y conocimientos.
+            </p>
+        </div>
+
+        <div class="bg three">
+            ¡¡¡Disfruta aprendiendo!!!
+        </div>
+        <h3>¿Te lo vas a perder?</h3>
+    </section>
+
+    <div class="space">
+
+    </div>
+</body>
+
+</html>

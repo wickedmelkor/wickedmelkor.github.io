@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <title>Academy-ON</title>
+    <link rel="icon" type="image/png" href="../img/logo2.png">
+    <link rel="stylesheet" type="text/css" href="../css/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/source.js"></script>
+</head>
+
+<body onload="loadLogin();loadSlider()">
+
+    <section id="card1" class="card1">
+        <header>
+            <nav>
+                <ul>
+                    <div class="login">
+                        <ul>
+                            <li id="register"><a id="loginLink" href="../html/register.html">
+                        Regístrate
+                    </a></li>
+                            <li id="register"><a id="regLink" href="../index.html">
+                        Atrás
+                    </a></li>
+
+                        </ul>
+                    </div>
+                    <li>Cursos
+                        <div class="categoryContainer other">
+                            <ul>
+                                <li>Programación</li>
+                                <li>Robótica</li>
+                                <li>Diseño</li>
+                                <li>Mentiras arriesgadas</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="scholarship">Becas</li>
+                    <li class="logo"><a href="../index.html"></a></li>
+                    <li>
+                        Escuelas
+                        <div class="categoryContainer other2">
+                            <ul>
+                                <!--data VIA JSON-->
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="../index.html#aboutus">Sobre nosotros</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+        <div class="spacer"></div>
+        <p class="welcome" id="welcome"></p>
+
+        <article class="formContainer" id="formContainer">
+            <h3 class="logBut" id="logBut">Login</h3>
+            <form id="form" name="userForm" action="">
+                <label>
+                    E-Mail:
+                    <input type="email" name="mail" size="24" required>
+
+                </label>
+                <label>
+                  Contraseña:
+                    <input type="password" name="pass" maxlength="27" size="20" required>
+
+                </label>
+                <input id="submit" type="button" value="Confirmar">
+            </form>
+        </article>
+        <div class="motivation">
+            <p>Trabaja duro en silencio.</p>
+            <p>Deja que tu éxito haga todo el ruido.</p>
+        </div>
+
+    </section>
+    <footer class="mainFooter"></footer>
+
+</body>
+
+</html>

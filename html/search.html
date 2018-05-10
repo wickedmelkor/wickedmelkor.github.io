@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <meta name="pubdate" content="20100101">
+    <title>Academy-ON</title>
+    <link rel="icon" type="image/png" href="../img/logo2.png">
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+    <link rel="stylesheet" type="text/css" href="../css/mainStyle.css">
+    <link rel="stylesheet" typer="text/css" href="../css/search.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/source.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/searchingMenu.js"></script>
+    <!--;requestSearch('',1);initSearchFunctionality()-->
+</head>
+
+<body onload="loadSlider();requestSearch('',1);initSearchFunctionality()">
+
+    <section id="card1" class="card1">
+        <header>
+            <nav>
+                <ul>
+                    <li id="logo" class="logo"><a href="../index.html"></a></li>
+                    <div class="login">
+
+                        <ul>
+                            <li id="login"><a id="loginLink" href="../html/login.html">
+                        Login
+                    </a></li>
+                            <li id="register"><a id="loginLink" href="../html/register.html">
+                        Regístrate
+                    </a></li>
+                            <li id="register"><a id="regLink" href="../index.html">
+                        Atrás
+                    </a></li>
+
+                        </ul>
+                    </div>
+                    <li>
+                        Cursos
+                        <div class="categoryContainer other">
+                            <ul>
+                                <li>Programación</li>
+                                <li>Robótica</li>
+                                <li>Diseño</li>
+                                <li>Mentiras arriesgadas</li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+                </ul>
+                <div class="search">
+                    <input type="text" id="search" placeholder="¿Qué quieres aprender?">
+                    <button class="searchButton"></button>
+                </div>
+            </nav>
+
+        </header>
+    </section>
+    <section class="card2">
+        <h3 class="searchHeader">Resultados de la busqueda</h3>
+        <div class="loadAnimation"></div>
+        <section class="searchOutput">
+            <ul class="displayedList">
+                <!-- data via googleSearch engine -->
+            </ul>
+        </section>
+        <h3 class="searchFooter">Ver mas resultados</h3>
+    </section>
+
+</body>
+
+</html>
